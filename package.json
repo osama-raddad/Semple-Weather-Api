@@ -1,0 +1,19 @@
+{
+  "name": "simple-weather",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --use_strict server.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cities.json": "^1.1.2",
+    "cookie-parser": "~1.4.3",
+    "countries-list": "^2.3.2",
+    "countrycitystatejson": "^0.2.9",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "^1.6.3",
+    "morgan": "~1.9.0"
+  }
+}
